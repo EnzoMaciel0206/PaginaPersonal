@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enzo Alejandro Maciel Núñez - Mi Sitio</title>
+  <!-- Agregar los enlaces a los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="text-center py-3">
+    <h2 style="font-size: 50px;">Enzo Alejandro Maciel Núñez</h2>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contáctame</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <section id="about">
+        <h1 class="text-center" style="margin-top: 30px; font-size: 60px;">Bienvenido a mi sitio web</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/img/foto Enzo cara perfil sin fondo.png" alt="Imagen Enzo Maciel" class="img-fluid" style="max-height: 95%;">
+          </div>
+          <div class="col-md-8" style="font-size: 25px; margin-top: 100px; padding-right: 50px;">
+            <p class="text-justify">Soy estudiante de Ingeniería en Tecnologías de la Información en la Universidad Politécnica de Sinaloa y tengo un gran interés por el desarrollo de software. Me destaco por mi habilidad de análisis, trabajo en equipo y liderazgo. Además, cuento con un buen nivel de inglés y estoy siempre dispuesto a aprender y mejorar mis habilidades. Mi objetivo es crear soluciones innovadoras que mejoren la eficiencia y simplifiquen la vida cotidiana.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills" style="margin-top: 50px;">
+        <h1 class="text-center" style="margin-top: 30px; margin-bottom: 30px;">Mis habilidades</h1>
+        <div class="row mt-4 justify-content-around" style="padding-bottom: 30px;">
+            <div class="col-md-2">
+                <div class="card h-100">
+                    <img src="/img/java logo 2.png" class="card-img-top w-20 h-40" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100">
+                    <img src="/img/html css logo 2.png" class="card-img-top w-20 h-40" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML Y CSS</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100">
+                    <img src="/img/js logo 2.png" class="card-img-top w-20 h-40" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100">
+                    <img src="/img/c++ logo.png" class="card-img-top w-20 h-40" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">C y C++</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100">
+                    <img src="/img/git logo 2.png" class="card-img-top w-20 h-40" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Git</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" style="margin-top: 50px;">
+        <h1 class="text-center" style="margin-top: 30px; margin-bottom: 30px; color: white;">Mis proyectos</h1>
+        <div class="row mt-4 justify-content-around" style="padding-bottom: 30px;">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <a href="https://github.com/EnzoMaciel0206" onclick="redirectToPage(event)">
+                        <img src="img/proyecto html.png" class="card-img-top h-40" alt="Imagen 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Página Web La Nueva Contabilidad</h5>
+                            <p class="card-text">Página web para la empresa Franco Cabanillas Consultores, realizada con HTML, CSS y Bootstrap.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <a href="https://github.com/EnzoMaciel0206" onclick="redirectToPage(event)">
+                        <img src="/img/proyecto java.png" class="card-img-top h-40" alt="Imagen 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Netpics Fotografía</h5>
+                            <p class="card-text">Proyecto escolar para el manejo de citas de la empresa Netpics Fotografía, realizada con Java.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <a href="https://github.com/EnzoMaciel0206" onclick="redirectToPage(event)">
+                        <img src="/img/proyecto angular.png" class="card-img-top h-40" alt="Imagen 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Práctica Dados</h5>
+                            <p class="card-text">Una práctica realizada para comprender el funcionamiento de Angular.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="margin-top: 30px; margin-bottom: 30px;">
+        <h1 class="text-center">Contáctame</h1>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-6">
+                <table class="table table-bordered table-striped" style="font-size: 30px;">
+                    <colgroup>
+                        <col style="width: 50%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr>
+                        <td>Correo electrónico:</td>
+                        <td>enzo.maciel.nunez@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Número telefónico:</td>
+                        <td>6692765036</td>
+                    </tr>
+                    <tr>
+                        <td>LinkedIn:</td>
+                        <td><a href="https://www.linkedin.com/in/enzo-alejandro-maciel-nunez/">Enzo Alejandro Maciel Núñez</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+  
+
+  <!-- Pie de página -->
+  <footer class="text-light text-center py-3">
+    <p>Enzo Alejandro Maciel Núñez &copy; 2023 | Mi sitio web</p>
+  </footer>
+
+  <!-- Agregar los enlaces a los archivos JavaScript de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function redirectToPage(event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+
+    // Obtén la URL de redirección desde el atributo "href" del enlace
+    var url = event.currentTarget.getAttribute("href");
+
+    // Redirige a la página
+    window.location.href = url;
+    }
+  </script>
+
+</body>
+</html>

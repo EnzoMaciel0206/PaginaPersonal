@@ -1,0 +1,51 @@
+
+/* Variables de colores */
+:root {
+    --color-primary: #40181F;
+    --color-secondary: #A66F5B;
+    --color-tertiary: #BF8D7A;
+    --color-accent: #F20505;
+    --color-dark: #0D0D0D;
+  }
+  
+  /* Estilos generales */
+  body {
+    background-color: white;
+    color: var(--color-dark);
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: var(--color-secondary);
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: var(--color-dark);
+  }
+  
+  /* Sección "Sobre mí" */
+  #about {
+    background-color: var(--color-tertiary);
+  }
+  
+  /* Sección "Mis habilidades" */
+  #skills {
+    background-color: var(--color-secondary);
+  }
+  
+  /* Sección "Mis proyectos" */
+  #projects {
+    background-color: var(--color-primary);
+  }
+  
+  /* Sección "Contáctame" */
+  #contact {
+    background-color: var(--color-tertiary);
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: var(--color-dark);
+  }
+
